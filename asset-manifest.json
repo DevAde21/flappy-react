@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//DevAde21/flappy-react/static/css/main.e42efaa1.css",
-    "main.js": "//DevAde21/flappy-react/static/js/main.5e91eb41.js",
-    "static/js/453.21935b00.chunk.js": "//DevAde21/flappy-react/static/js/453.21935b00.chunk.js",
-    "index.html": "//DevAde21/flappy-react/index.html",
-    "main.e42efaa1.css.map": "//DevAde21/flappy-react/static/css/main.e42efaa1.css.map",
-    "main.5e91eb41.js.map": "//DevAde21/flappy-react/static/js/main.5e91eb41.js.map",
-    "453.21935b00.chunk.js.map": "//DevAde21/flappy-react/static/js/453.21935b00.chunk.js.map"
+    "main.css": "/flappy-react/static/css/main.e42efaa1.css",
+    "main.js": "/flappy-react/static/js/main.01646517.js",
+    "static/js/453.21935b00.chunk.js": "/flappy-react/static/js/453.21935b00.chunk.js",
+    "index.html": "/flappy-react/index.html",
+    "main.e42efaa1.css.map": "/flappy-react/static/css/main.e42efaa1.css.map",
+    "main.01646517.js.map": "/flappy-react/static/js/main.01646517.js.map",
+    "453.21935b00.chunk.js.map": "/flappy-react/static/js/453.21935b00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e42efaa1.css",
-    "static/js/main.5e91eb41.js"
+    "static/js/main.01646517.js"
   ]
 }

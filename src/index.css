@@ -1,0 +1,61 @@
+/* src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jersey 15', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181825;
+  color: white;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.game-title {
+  font-size: 3em;
+  color: #E0E0E0;
+  margin: 10px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* === NOVAS CORES BOTÕES === */
+button {
+  font-family: 'Jersey 15', sans-serif;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  font-size: 1.6em;
+  cursor: pointer;
+  background-color: #f39c12; /* Laranja (estilo Flappy) */
+  color: #ffffff;
+  border: none;
+  border-bottom: 4px solid #d35400; /* Laranja mais escuro para borda inferior */
+  border-radius: 8px;
+  margin: 10px;
+  transition: background-color 0.2s ease, border-bottom 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #e67e22; /* Laranja um pouco mais escuro no hover */
+    border-bottom-width: 4px;
+}
+
+button:active {
+    background-color: #d35400; /* Cor da borda vira fundo */
+    border-bottom-width: 2px;
+    transform: translateY(2px);
+}
+
+.game-text-shadow {
+    text-shadow: none !important;
+}
